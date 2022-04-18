@@ -1,0 +1,19 @@
+div a{
+    padding: 3px;
+    font-size: 0.7rem;
+    color: white;
+}
+.btndrop{
+    padding: 3px;
+    font-size: 0.7rem;
+    color: white;
+}
+#logopic{
+    width: 34px;
+    height: 34px;
+    border-radius: 13px;
+
+}
+.headfood{
+    font-size: 1.5rem;
+}

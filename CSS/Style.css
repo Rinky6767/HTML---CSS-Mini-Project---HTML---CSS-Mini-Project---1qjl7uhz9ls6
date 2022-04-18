@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+nav#navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+div#logo {
+    margin: 10px 34px;
+}
+
+div#logo img {
+    margin: 3px 6px;
+    height: 59px;
+}
+
+#logopic {
+    width: 67px;
+    height: 70px;
+    border-radius: 30px;
+    margin: 7px 6px;
+}
+
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 9px 12px;
+    border-radius: 9px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: white;
+    border-radius: 23px;
+    color: brown;
+}
+
+#navbar::before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+
+}
+
+#home {
+    position: relative;
+    color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 200px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__340.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+p {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 1.5rem;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#btn {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    margin-top: 17px;
+    font-size: 1.2rem;
+}
+#btnsize{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    margin-top: 17px;
+    font-size: 1.2rem;
+}
+#orderbtnst{
+    /* background-color: brown; */
+    color: white;
+    text-orientation: none;
+}
+#services {
+    display: flex;
+    margin: 23px;
+
+}
+
+#services div.box {
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: rgb(250, 239, 239);
+}
+
+#services div.box img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.primary {
+    font-size: 2.1rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.secondary {
+    font-size: 1.5rem;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
+}
+
+#client {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#client img {
+    width: 170px;
+    height: 170px;
+    margin: 20px 34px;
+}
+
+#client::before {
+    content: "";
+    position: absolute;
+    background: url(../Images/Clientbg.jpg) no-repeat center center/cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+#form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#form-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 15px 34px;
+}
+
+input[type] {
+    padding: 10px 54px;
+    border-radius: 5px;
+
+}
+
+textarea {
+    height: 60px;
+    border-radius: 5px;
+}
+
+#btn1 {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    margin: 17px auto;
+    display: block;
+    font-size: 1.2rem;
+    width: 100px;
+}
+
+#form::before {
+    content: "";
+    position: absolute;
+    background: url(../Images/contactus.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#contain {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 134, 134);
+    color: white;
+}

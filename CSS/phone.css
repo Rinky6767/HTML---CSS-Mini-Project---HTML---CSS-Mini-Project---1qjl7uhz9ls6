@@ -1,0 +1,41 @@
+/* navbar */
+nav#navbar{
+    flex-direction: column;
+    width:100vw;
+}
+a{
+    padding: 10px;
+}
+
+/* home */
+#home{
+    width:100vw;
+    padding: 0px;
+    
+}
+
+/* services */
+#services{
+    flex-direction: column;
+}
+
+/* client */
+#client {
+    flex-wrap: wrap;
+}
+
+/* contact */
+
+/* utility */
+p {
+    font-size: 1.1rem;
+}
+.primary {
+    font-size: 1.6rem;
+    margin-top:30px;
+}
+
+.secondary {
+    /* margin-top:65px; */
+    font-size: 1.3rem;
+}
