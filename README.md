@@ -9,10 +9,10 @@
  Developed Using Visual Studio Code.
 
  # Installing
- * You can clone the repository, use the commad: git clone url;
+ * You can clone the repository, using the command: git clone url;
  
- * You can View the Website [Here] (https://master--clinquant-donut-eedc49.netlify.app/)
+ * You can View the Website [Here](https://master--clinquant-donut-eedc49.netlify.app/)
 
- 
+
 
 
