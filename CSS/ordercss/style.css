@@ -9,6 +9,7 @@
     position: fixed;
     align-items: center;
     width: 100%;
+    flex-direction: column;
 }
 
 #nav::before {
@@ -26,7 +27,10 @@ a {
     padding: 24px;
     text-decoration: none;
 }
-
+#log{
+    display: block;
+    margin-top:3px 6px;
+}
 #logopic {
     width: 44px;
     height: 44px;
@@ -111,6 +115,7 @@ p {
     display: block;
     margin: auto;
     padding-bottom: 3px;
+    border: none;
     margin-top: 2px;
     background-color: brown;
     border-radius: 5px;
@@ -200,4 +205,9 @@ p {
 
 div.dropdown-content a {
     color: darkorange;
+}
+.qnav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
