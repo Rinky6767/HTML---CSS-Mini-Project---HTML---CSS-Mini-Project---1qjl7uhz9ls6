@@ -122,6 +122,7 @@ p {
     color: white;
     cursor: pointer;
     margin-top: 17px;
+    border: none;
     font-size: 1.2rem;
 }
 
@@ -227,6 +228,7 @@ textarea {
     display: block;
     font-size: 1.2rem;
     width: 100px;
+    border: none;
 }
 
 #form::before {
